@@ -1,0 +1,27 @@
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-container {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.flip-digit {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.flip-label {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #777;
+}
